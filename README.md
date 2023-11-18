@@ -6,13 +6,13 @@ patient where we have recorded how much exercise they get per week, and their ch
 .7231 Positive Correlation
 
 ## Consider dataset-two.csv which includes the age of each patient. Suppose that we split the patients into different age groups, in their 20s (20-29), in their 30s (30-39), and so on, up the the age group in their 70s (70-79). Suppose that we again learn a linear model y = ax + b to predict a patient’s cholesterol level (y) given their exercise level (x). However, say we learn a different model for each age group, using only that age group’s data. What are the resoluting co-efficients a for each of the 6 different age groups in the dataset? Do the resulting co-efficients suggest positive correlation or negative correlation between x and y?
-Negative Correlation
-20-29: -0.6156
-30-39: -0.6394 
-40-49: -0.6018 
-50-59: -0.6602 
-60-69: -0.5922 
-70-79: -0.7321
+Negative Correlation<br>
+20-29: -0.6156<br>
+30-39: -0.6394<br>
+40-49: -0.6018<br>
+50-59: -0.6602<br>
+60-69: -0.5922<br>
+70-79: -0.7321<br>
 
 ## The analysis that we performed in part (1) and part (2) uses the same pool of patients, except that in part (2) we incorporated the patients’ ages in the analysis. Further, we (should) have observed two different trends in each analysis. Which trend do you intuitively believe should be the correct one, and why? (This is an open-ended question).
 Based on the coefficient from dataset 1, the correlation between exercise and cholesterol was positive but correlation was negative when dividing up the dataset and its model by age. Intuitively I would say that the second dataset/trend is correct because it is known that exercise is generally healthier and as a result would be more likely to decrease cholesterol.
